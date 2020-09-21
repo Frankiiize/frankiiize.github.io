@@ -1,11 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head lang="es">
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="./images/favicon.ico">
+        <link rel="stylesheet" href="./css/css.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+        
+        <title>Portafolio Frank</title>        
+    </head>
+    <body>
+        <header class="header">
+         <div class="container">
+            <figure class="logo">
+                <img class="logoJimenez" height="70px" src="./images/logo_size_invert.jpg" alt="logoJimenezF"/>
+            </figure>
+             <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#experience">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contact">Conoceme</a>
+                    </li>
+                </ol>
+             </nav>
+            </div>
+        </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Hola soy <strong>Francisco Jimenez</strong> <br/>estudiante en <strong>
+                desarrollo web</strong><br/>con pasion por el <strong>aprendizaje</strong>
+            </h1>
+            <figure class="hero-imageContainer">
+                <img class="hero-image" src="./images/herofrank.jpg" width="500" height="300"  alt="Foto herofrank">  
+            </figure>
+        </div>
+    </section>
+    <section class="portafolio" id="portfolio">
+        <div class="container">
+            <h2>Portafolio</h2>
+            <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Diseños para @curaosya</h3>
+                      <p class="project-description">Se genero como una idea y con el tiempo se convirtio en un modelo de negocios exitoso</p>
+                      <p class="project-date"><small><strong>fecha:</strong>18/05/20</small></p>
+                      <p class="project-url"><strong>puedes verlo en:</strong>www.instagram.com/curaosya_</p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img src="./images/LogoCuraosYA.jpeg" width="500" alt="LogoCuraosYA"/>
+                    </figure>
+                </article>
+                <article class="project"">
+                    <div class="project-details">
+                        <h4 class="project-title">Flyer Promocional</h4>
+                        <P class="project-description">Nos especializamos en la venta de licor a domicilio, con este flyer iniciamos promociones y descuentos a nuestros primeros clientes </P>
+                        <p class="project-date"><small><strong>fecha:</strong>18/05/20</small></p>
+                        <p class="project-url"><strong>puedes verlo en:</strong>www.instagram.com/curaosya_</p>
+                    </div>
+                    <figure>
+                        <img src="./images/FlyerCuraosYa.jpeg" width="500" alt="FlyerCuraosYa"/>
+                    </figure>
+                </article>
+            </div>
+    </section>
+    <div class="container">
+        <h2 class="event-list-titile">Experiencia</h2>
+    </div>
+    <section class="event-list" id="experience">
+        <div class="container">
+            <article class="event">
+                <figure class="experience-imageContainer">
+                    <img src="./images/PromoJhoni.jpeg" width="100" alt="fotoPromoJhoni"/>
+                </figure>
+                <div class="experience-description">
+                    <h3 class="event-title">Promociones</h3>
+                    <p class="event-description">Nos dimos cuenta con el tiempo que los clientes compraban las mismas combinaciones para sus tragos e incorporamos las promos a nuestro catalogo</p>
+                    <a href="https://www.instagram.com/curaosya_/" class="event-url">ver mas</a>
+                </div>     
+            </article>
+            <article class="event">
+                <figure class="experience-imageContainer">
+                    <img src="./images/promoMistral.jpeg" width="300" alt="fotoPromoMistral"/>
+                </figure>
+                <div class="experience-description">
+                    <h3 class="event-title">Promo de Mistral</h3>
+                    <P class="event-description">Una de nuestras promociones mas exitosas, fue la del pisco mas popular de chile "Pisco Mistral"</P>
+                    <a href="https://www.instagram.com/curaosya_/" class="event-url">ver mas</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="experience-imageContainer">
+                    <img src="./images/promoAlto.jpeg" width="300" alt="fotoPromoAlto"/>
+                </figure>
+                <div class="experience-description">
+                    <h3 class="event-title">Promo Alto</h3>
+                    <p class="event-description">Luego para saciar todos los gustos en cuanto a calidad de pisco, surgio la promo de pisco Alto del Carmen</p>
+                    <a href="https://www.instagram.com/curaosya_/" class="event-url">ver mas</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="experience-imageContainer">
+                    <img src="./images/PromoRoyal.jpeg" width="300" alt="fotoPromoRoyal"/>
+                </figure>
+                <div class="experience-description">
+                    <h3 class="event-title">Promo Cervezas</h3>
+                    <p class="event-description">Tambien incorporamos promociones de cervezas, la mas vendida hasta el momento es la Royal Guard</p>
+                    <a href="https://www.instagram.com/curaosya_/" class="event-url">ver mas</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="contacto" id="contact">
+        <div class="container">
+            <form action="/suscription/" class="form-email"> 
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" placeholder="Dejame tu email"> 
+                <button>Enviar</button>
+            </form>
+            <div>
+                <a href="https://twitter.com/frankiiize" class="social-link twitter"></a>
+                <a href="https://www.facebook.com/frankiiize/" class="social-link facebook"></a>
+                <a href="https://www.facebook.com/frankiiize/" class="social-link github"></a>
+                <a href="https://www.instagram.com/frankiiize/" class="social-link instagram"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <p>curso de desarrolo web online <img width="90" src="../Portafolio/images/platzi.png" alt="platzi"></p>
+            </div>
+            <div>
+                <p>designed <\3 Frank <a href="https://twitter.com/frankiiize" target="_blank">@frankiiize</a></p>
+                </p>
+            </div>
+        </div>
+    </footer>
+    </body>
 </html>
